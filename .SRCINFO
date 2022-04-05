@@ -1,0 +1,17 @@
+pkgbase = simpread-sync-git
+	pkgdesc = A simple cli to sync simpread config
+	pkgver = 0.6.5.r0.g15c2c8e
+	pkgrel = 1
+	url = https://github.com/j1g5awi/simpread-sync
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = go
+	optdepends = pandoc: support epub output
+	source = simpread-sync-git::git+https://github.com/j1g5awi/simpread-sync
+	sha512sums = SKIP
+
+pkgname = simpread-sync-git
